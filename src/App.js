@@ -6,6 +6,8 @@ import {
 import Nav from './components/Nav'
 import About from './components/About'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
+
 function App() {
   return (
     <Router>
@@ -15,6 +17,9 @@ function App() {
       </Route>
       <Route path="/resume">
         <Resume />
+      </Route>
+      <Route path="/projects">
+        <Projects />
       </Route>
     </Router>
   );
