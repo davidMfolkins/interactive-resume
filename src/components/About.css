@@ -1,0 +1,8 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-blurb {
+  width: 500px;
+}
