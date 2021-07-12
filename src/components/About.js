@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="profile">
       <div className="profile-blurb">
-        <h1>Hi! My name is David Folkins, and I'm a fresh full-stack developer from Montréal, Canada.</h1>
+        <h1>Hi! My name is David Folkins, and I'm a full-stack developer from Montréal, Canada.</h1>
         <p>
           In April 2020, I was laid off from my job as a QA Associate.
           Living in Canada I was lucky enough to keep afloat with the CERB program, but I wanted to make a change.
@@ -13,11 +13,8 @@ function About() {
           Over 3 months later I would graduate, and landed my first role as a full-stack developer in February 2021 at 4th Whale Marketing.
       </p>
       <p>
-          Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc 
-          Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc 
-          Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc 
-          Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc Hobbies etc
-          Hobbies etc Hobbies etc 
+          When I'm not growing my skills as a devloper, you can find me building PCs to get that extra FPS boost, game on said PC, cycling around Montréal
+          and organizing my next (post covid) travel plans!
       </p>
       </div>
       <img className="profile-pic" src={profilepic} width="360px" alt="profile" />

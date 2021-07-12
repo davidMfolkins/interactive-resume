@@ -18,7 +18,8 @@
 }
 
 .project-text {
-  width: 250px
+  width: 250px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 1025px) {
