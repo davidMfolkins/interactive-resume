@@ -7,3 +7,18 @@
 .profile-blurb {
   width: 500px;
 }
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile-blurb {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile-blurb {
+    width: 350px;
+  }
+}
