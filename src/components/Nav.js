@@ -29,7 +29,6 @@ function Nav() {
         </a>
       </div>
     </div>
-
   );
 }
 
