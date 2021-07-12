@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import github from '../images/github.png'
+import linkedin from '../images/linkedin.png'
 import './Nav.css'
 
 function Nav() {
@@ -10,18 +11,16 @@ function Nav() {
       <Link className="nav-item" to="/projects">Projects</Link>
       <Link className="nav-item" to="/contact">Contact</Link>
       <a
-        className="nav-item"
         target="_blank"
         rel="noreferrer"
         href="https://github.com/davidMfolkins">
-        Github
+        <img src={github} width="30px" alt="github" />
         </a>
       <a
-        className="nav-item"
         target="_blank"
         rel="noreferrer"
         href="https://ca.linkedin.com/in/davidfolkins">
-        Linkedin
+        <img src={linkedin} width="30px" alt="linkedin" />
         </a>
     </div>
   );
