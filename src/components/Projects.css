@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  margin: 20px auto;
+  margin: 100px auto;
 }
 .project-containers {
   display: flex;
@@ -22,10 +22,11 @@
 @media only screen and (max-width: 1025px) {
   .projects {
     width: 769px;
+    margin-top: 50px;
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
   .projects {
     width: 412px;
   }
