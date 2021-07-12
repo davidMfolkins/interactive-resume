@@ -6,23 +6,30 @@ import './Nav.css'
 function Nav() {
   return (
     <div className="nav">
-      <Link className="nav-item" to="/">About</Link>
-      <Link className="nav-item" to="/resume">Resume</Link>
-      <Link className="nav-item" to="/projects">Projects</Link>
-      <Link className="nav-item" to="/contact">Contact</Link>
-      <a
-        target="_blank"
-        rel="noreferrer"
-        href="https://github.com/davidMfolkins">
-        <img src={github} width="30px" alt="github" />
+      <div className="nav-left">
+        <Link className="nav-left-item" to="/">About</Link>
+        <Link className="nav-left-item" to="/resume">Resume</Link>
+        <Link className="nav-left-item" to="/projects">Projects</Link>
+        <Link className="nav-left-item" to="/contact">Contact</Link>
+      </div>
+      <div className="nav-right">
+        <a
+          className="nav-right-item"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/davidMfolkins">
+          <img src={github} width="30px" alt="github" />
         </a>
-      <a
-        target="_blank"
-        rel="noreferrer"
-        href="https://ca.linkedin.com/in/davidfolkins">
-        <img src={linkedin} width="30px" alt="linkedin" />
+        <a
+          className="nav-right-item"
+          target="_blank"
+          rel="noreferrer"
+          href="https://ca.linkedin.com/in/davidfolkins">
+          <img src={linkedin} width="30px" alt="linkedin" />
         </a>
+      </div>
     </div>
+
   );
 }
 
