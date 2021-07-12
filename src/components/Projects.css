@@ -1,0 +1,38 @@
+.projects {
+  width: 1100px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+.project-containers {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.project-pic {
+  margin-bottom: 20px;
+}
+
+.project-text {
+  width: 250px
+}
+
+@media only screen and (max-width: 1025px) {
+  .projects {
+    width: 769px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .projects {
+    width: 412px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .projects {
+    width: 360px;
+  }
+}
