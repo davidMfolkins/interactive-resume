@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import github from '../images/github.png'
-import linkedin from '../images/linkedin.png'
 import './Nav.css'
 
 function Nav() {
@@ -18,14 +16,14 @@ function Nav() {
           target="_blank"
           rel="noreferrer"
           href="https://github.com/davidMfolkins">
-          <img src={github} width="30px" alt="github" />
+          <i className="fab fa-github fa-2x" style={{ color: "white" }}></i>
         </a>
         <a
           className="nav-right-item"
           target="_blank"
           rel="noreferrer"
           href="https://ca.linkedin.com/in/davidfolkins">
-          <img src={linkedin} width="30px" alt="linkedin" />
+          <i className="fab fa-linkedin-in fa-2x" style={{ color: "white" }}></i>
         </a>
       </div>
     </div>
