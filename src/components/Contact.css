@@ -2,8 +2,9 @@
   width: 800px;
   display: flex;
   flex-direction: column;
-  margin: 100px auto;
+  margin: 150px auto;
   font-size: 50px;
+  color: white;
 }
 
 .contact-item {
@@ -12,12 +13,14 @@
 
 .contact-item > a {
   text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
   .contact {
     width: 700px;
     font-size: 40px;
+    margin: 150px auto;
   }
 }
 

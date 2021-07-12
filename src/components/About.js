@@ -20,7 +20,7 @@ function About() {
           Hobbies etc Hobbies etc 
       </p>
       </div>
-      <img src={profilepic} width="360px" alt="profile" />
+      <img className="profile-pic" src={profilepic} width="360px" alt="profile" />
     </div>
   );
 }
