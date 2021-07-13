@@ -3,13 +3,14 @@
   display: flex;
   justify-content: center;
   margin: 150px auto;
-  color: white;
 }
 .project-containers {
   display: flex;
   flex-direction: column;
   margin: 50px;
   align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 .project-pic {
