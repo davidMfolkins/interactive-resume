@@ -2,6 +2,7 @@ import profilepic from '../images/profilepic.png'
 import poe from '../images/poe-armoury.png'
 import spotify from '../images/spotify-search.png'
 import omdb from '../images/omdb.png'
+import pong from '../images/pong.png'
 import './Projects.css'
 import FadeInDiv from './FadeIn'
 
@@ -45,27 +46,27 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
         >
-          <img className="project-pic" src={profilepic} width="500px" alt="profile" />
+          <img className="project-pic" src={profilepic} height="300px" width="500px" alt="profile" />
           <h2>mApp</h2>
           <span className="project-text">mApp is a map creation and sharing application built using Javascript, jQuery and Ajax.</span>
         </a>
         <a
           className="project-containers"
-          href="https://github.com/davidMfolkins/omdb-nominee"
+          href="https://github.com/davidMfolkins/python-pong"
           target="_blank"
           rel="noreferrer"
         >
-          <img className="project-pic" src={profilepic} width="500px" alt="profile" />
-          <h2>Project title</h2>
-          <span className="project-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span>
+          <img className="project-pic" src={pong} height="300px" width="500px" alt="profile" />
+          <h2>Python Pong Game</h2>
+          <span className="project-text">A simple introductory Python tutorial on how to make pong! </span>
         </a>
         <a
           className="project-containers"
-          href="https://github.com/davidMfolkins/omdb-nominee"
+          href="https://github.com/davidMfolkins/python-pong"
           target="_blank"
           rel="noreferrer"
         >
-          <img className="project-pic" src={profilepic} width="500px" alt="profile" />
+          <img className="project-pic" src={profilepic} height="300px" width="500px" alt="profile" />
           <h2>Project title</h2>
           <span className="project-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span>
         </a>
