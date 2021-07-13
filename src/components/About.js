@@ -1,7 +1,10 @@
 import profilepic from '../images/profilepic.png'
 import './About.css'
+import FadeInDiv from './FadeIn'
+
 function About() {
   return (
+    <FadeInDiv>
     <div className="profile">
       <div className="profile-blurb">
         <h1>Hi! My name is David Folkins, and I'm a full-stack developer from Montréal, Canada.</h1>
@@ -19,6 +22,7 @@ function About() {
       </div>
       <img className="profile-pic" src={profilepic} width="360px" alt="profile" />
     </div>
+    </FadeInDiv>
   );
 }
 
