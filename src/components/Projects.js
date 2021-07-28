@@ -1,4 +1,3 @@
-import profilepic from '../images/profilepic.png'
 import poe from '../images/poe-armoury.png'
 import spotify from '../images/spotify-search.png'
 import omdb from '../images/omdb.png'
@@ -30,7 +29,7 @@ function Projects() {
         >
           <img className="project-pic" src={poe} height="300px" width="500px" alt="poe" />
           <h2>PoE Armoury</h2>
-          <span className="project-text">PoE Armoury is a character database for the video game Path of Exile. Users can search characters, browse their inventory/skills, and save to favourites.</span>
+          <span className="project-text">PoE Armoury is a character database for the video game Path of Exile. Users can search characters, browse their inventory/skills, and save to favourites. This was built by a small team during Lighthouse Labs Web Development bootcamp.</span>
         </a>
         <a
           className="project-containers"
@@ -50,7 +49,7 @@ function Projects() {
         >
           <img className="project-pic" src={maps} height="300px" width="500px" alt="profile" />
           <h2>mApp</h2>
-          <span className="project-text">mApp is a map creation and sharing application built using Javascript, jQuery and Ajax.</span>
+          <span className="project-text">mApp is a map creation and sharing application built by a small team during Lighthouse Labs Web Development bootcamp using Javascript, jQuery and Ajax.</span>
         </a>
         <a
           className="project-containers"
